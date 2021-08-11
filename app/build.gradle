@@ -32,8 +32,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerVersion = "1.5.10"
-        kotlinCompilerExtensionVersion = "1.1.0-alpha01"
+        kotlinCompilerExtensionVersion '1.0.1'
     }
 
     kotlinOptions {
@@ -59,6 +58,9 @@ dependencies {
     // Material design icons
     implementation("androidx.compose.material:material-icons-core:1.0.1")
     implementation("androidx.compose.material:material-icons-extended:1.0.1")
+    //activity
+    implementation 'androidx.activity:activity-compose:1.3.1'
+
 
     // UI Tests
     androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.0.1")
